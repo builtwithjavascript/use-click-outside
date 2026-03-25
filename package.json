@@ -19,8 +19,8 @@
   "scripts": {
     "dev": "vite",
     "build-types": "tsc --project tsconfig.build.json",
-    "build": "tsc --esModuleInterop && vite build && npm run build-types",
-    "pub": "npm publish --access public",
+    "build": "npm run pretty && tsc --esModuleInterop && vite build && npm run build-types",
+    "pub": "npm run build; npm publish --access public --otp=",
     "test": "TESTING=true vitest run",
     "test-watch": "TESTING=true vitest watch",
     "pretty": "prettier -w \"./src/**/*.ts\"",
