@@ -1,6 +1,6 @@
 {
   "name": "@builtwithjavascript/use-click-outside",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Exposes hook useClickOutside to make it easier to listen for clicks outside of an element. Useful for modal or dropdown.",
   "author": "builtwithjavascript",
   "license": "MIT",
@@ -57,6 +57,6 @@
   "main": "./dist/use-click-outside.umd.js",
   "module": "./dist/use-click-outside.es.js",
   "dependencies": {
-    "@builtwithjavascript/use-event-listener": "^1.0.1"
+    "@builtwithjavascript/use-event-listener": "^1.0.2"
   }
 }
